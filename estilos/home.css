@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Alata';
+    src: url('fonts/Alata/Alata-Regular.ttf'); /* IE9 Compat Modes */
+  }
+
+  @font-face {
+    font-family: 'Lobster';
+    src: url('fonts/Lobster/Lobster-Regular.ttf'); /* IE9 Compat Modes */
+  }
+
+  @font-face {
+    font-family: 'Srisakdi';
+    src: url('fonts/Srisakdi/Srisakdi-Bold.ttf'); /* IE9 Compat Modes */
+  }
+
+body {}
+
+.menu {}
+
+.opcion {}
+
+.title {
+    padding: auto;
+    margin: auto;
+    justify-content: center;
+}
+
+.index-title {}
+
+.nombre-rest-1 {
+    font-family: 'Alata';
+}
+
+.nombre-rest-2 {
+    font-family: 'Lobster';
+}
+
+.nombre-rest-3 {
+    font-family: 'Srisakdi';
+}
+
+.index-body {
+    background-color: darkslategrey;
+    background-image: url('../imagenes/background-pattern.png');
+    width:100%;
+    color: white;
+    padding: 0px 10px;
+    display: flex;
+    flex-flow: column;
+}
+
+.quienes-somos {
+    padding-right: 60px;
+}
+
+.ofertas {
+    font-family: 'Lobster';
+}
+
+.ofertas-title {
+    font-size: 24px;
+    padding-bottom:20px;
+}
+
+.oferta-item {}
+
+.oferta-imagen {
+    height: 300px;
+    width: 300px;
+}
+
+.oferta-descripcion {
+    font-size: 16px;
+}
+
+.oferta-precio {
+    font-family: 'Alata';
+    font-size: 24px;
+}
+
+.side-bar-items {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right:0px;
+}
+
+img.side-bar-item {
+    filter: invert(1);
+    width:50px;
+    height:50px;
+    padding: 10px 0px;
+}
